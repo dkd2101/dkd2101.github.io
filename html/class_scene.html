@@ -78,6 +78,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>represents a scene containing gameobjects to be edited and manipulated  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_scene_8hpp_source.html">Scene.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -87,20 +90,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b8cec2e32546713915f8c6303c951f1" id="r_a3b8cec2e32546713915f8c6303c951f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b8cec2e32546713915f8c6303c951f1">~Scene</a> ()</td></tr>
 <tr class="separator:a3b8cec2e32546713915f8c6303c951f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae98753ff24e7dfb41b45aa1d212c5e82" id="r_ae98753ff24e7dfb41b45aa1d212c5e82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae98753ff24e7dfb41b45aa1d212c5e82">StartUp</a> (SDL_Renderer *renderer)</td></tr>
+<tr class="memdesc:ae98753ff24e7dfb41b45aa1d212c5e82"><td class="mdescLeft">&#160;</td><td class="mdescRight">change this to take in a text file and then load in and add texture components and such  <br /></td></tr>
 <tr class="separator:ae98753ff24e7dfb41b45aa1d212c5e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea860520f1ae70e9af3e0fffa7357837" id="r_aea860520f1ae70e9af3e0fffa7357837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea860520f1ae70e9af3e0fffa7357837">Shutdown</a> ()</td></tr>
+<tr class="memdesc:aea860520f1ae70e9af3e0fffa7357837"><td class="mdescLeft">&#160;</td><td class="mdescRight">shutsdown the scene. smart pointers are utilized so memory is automatically released  <br /></td></tr>
 <tr class="separator:aea860520f1ae70e9af3e0fffa7357837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0faba71fd397e2bea5849784ee3d2fe" id="r_ae0faba71fd397e2bea5849784ee3d2fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0faba71fd397e2bea5849784ee3d2fe">Input</a> (float deltaTime)</td></tr>
+<tr class="memdesc:ae0faba71fd397e2bea5849784ee3d2fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">runs the input functions of all objects in the scene  <br /></td></tr>
 <tr class="separator:ae0faba71fd397e2bea5849784ee3d2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e2bf79699b0c05bd353fade7b380ad7" id="r_a7e2bf79699b0c05bd353fade7b380ad7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e2bf79699b0c05bd353fade7b380ad7">Update</a> (float deltaTime)</td></tr>
+<tr class="memdesc:a7e2bf79699b0c05bd353fade7b380ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">runs the update functions of all objects in the scene  <br /></td></tr>
 <tr class="separator:a7e2bf79699b0c05bd353fade7b380ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91913b921d41d374e00eac347358dc14" id="r_a91913b921d41d374e00eac347358dc14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91913b921d41d374e00eac347358dc14">Render</a> ()</td></tr>
+<tr class="memdesc:a91913b921d41d374e00eac347358dc14"><td class="mdescLeft">&#160;</td><td class="mdescRight">renders the given objects inside of the scene  <br /></td></tr>
 <tr class="separator:a91913b921d41d374e00eac347358dc14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afee9735168aa0a95751dbec42fa15d59" id="r_afee9735168aa0a95751dbec42fa15d59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afee9735168aa0a95751dbec42fa15d59">SetSceneActiveStatus</a> (bool status)</td></tr>
+<tr class="memdesc:afee9735168aa0a95751dbec42fa15d59"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the activity of the scene  <br /></td></tr>
 <tr class="separator:afee9735168aa0a95751dbec42fa15d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99313203ab62b1692065d9780e0cd067" id="r_a99313203ab62b1692065d9780e0cd067"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99313203ab62b1692065d9780e0cd067">IsSceneActive</a> () const</td></tr>
 <tr class="separator:a99313203ab62b1692065d9780e0cd067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e3f7dd25c5eda43e2b642c6926fe52c" id="r_a3e3f7dd25c5eda43e2b642c6926fe52c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e3f7dd25c5eda43e2b642c6926fe52c">LoadFromFile</a> (std::string filepath, SDL_Renderer *renderer)</td></tr>
+<tr class="memdesc:a3e3f7dd25c5eda43e2b642c6926fe52c"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads a scene with the given gameobjects from the given file path and set the renderer to the given  <br /></td></tr>
 <tr class="separator:a3e3f7dd25c5eda43e2b642c6926fe52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a191b4469d9c323e36ef129f720e51a68" id="r_a191b4469d9c323e36ef129f720e51a68"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a191b4469d9c323e36ef129f720e51a68">AddGameObject</a> (int <a class="el" href="glad_8h.html#a92d0386e5c19fb81ea88c9f99644ab1d">x</a>, int <a class="el" href="glad_8h.html#a66ddd433d2cacfe27f5906b7e86faeed">y</a>, int <a class="el" href="glad_8h.html#a09012ea95ebbbe1c032db7c68b54291e">width</a>, int <a class="el" href="glad_8h.html#a456943498a720df0f4b62bafa5dad93c">height</a>)</td></tr>
 <tr class="separator:a191b4469d9c323e36ef129f720e51a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,7 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a680246a5963ea76ca99df8f032136711" id="r_a680246a5963ea76ca99df8f032136711"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a680246a5963ea76ca99df8f032136711">ObjectsIntersect</a> (int objectOne, int objectTwo)</td></tr>
 <tr class="separator:a680246a5963ea76ca99df8f032136711"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>represents a scene containing gameobjects to be edited and manipulated </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad10176d75a9cc0da56626f682d083507" name="ad10176d75a9cc0da56626f682d083507"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad10176d75a9cc0da56626f682d083507">&#9670;&#160;</a></span>Scene()</h2>
 
@@ -265,6 +277,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>runs the input functions of all objects in the scene </p>
+
 </div>
 </div>
 <a id="a99313203ab62b1692065d9780e0cd067" name="a99313203ab62b1692065d9780e0cd067"></a>
@@ -302,6 +316,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>loads a scene with the given gameobjects from the given file path and set the renderer to the given </p>
 <p>NOTE: Can add error handling...</p>
 
 </div>
@@ -358,6 +374,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>renders the given objects inside of the scene </p>
 
 </div>
 </div>
@@ -419,6 +437,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>sets the activity of the scene </p>
+
 </div>
 </div>
 <a id="aea860520f1ae70e9af3e0fffa7357837" name="aea860520f1ae70e9af3e0fffa7357837"></a>
@@ -435,6 +455,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>shutsdown the scene. smart pointers are utilized so memory is automatically released </p>
 
 </div>
 </div>
@@ -453,6 +475,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>change this to take in a text file and then load in and add texture components and such </p>
+
 </div>
 </div>
 <a id="a7e2bf79699b0c05bd353fade7b380ad7" name="a7e2bf79699b0c05bd353fade7b380ad7"></a>
@@ -469,6 +493,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>runs the update functions of all objects in the scene </p>
 
 </div>
 </div>

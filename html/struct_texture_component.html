@@ -78,14 +78,17 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>a component for rendering and displaying textures over a gameobject  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_texture_component_8hpp_source.html">TextureComponent.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TextureComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="struct_texture_component__inherit__graph.png" border="0" usemap="#a_texture_component_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_texture_component_inherit__map" id="a_texture_component_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,79,137,105"/>
-<area shape="rect" href="class_component.html" title="Components, must know about the gameEntity that they are associated with Components,..." alt="" coords="27,5,115,31"/>
+<area shape="rect" title="a component for rendering and displaying textures over a gameobject" alt="" coords="5,79,137,105"/>
+<area shape="rect" href="class_component.html" title="! Components, must know about the gameEntity that they are associated with Components,..." alt="" coords="27,5,115,31"/>
 <area shape="poly" title=" " alt="" coords="74,46,74,79,68,79,68,46"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -94,8 +97,8 @@ Collaboration diagram for TextureComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="struct_texture_component__coll__graph.png" border="0" usemap="#a_texture_component_coll__map" alt="Collaboration graph"/></div>
 <map name="a_texture_component_coll__map" id="a_texture_component_coll__map">
-<area shape="rect" title=" " alt="" coords="5,79,137,105"/>
-<area shape="rect" href="class_component.html" title="Components, must know about the gameEntity that they are associated with Components,..." alt="" coords="27,5,115,31"/>
+<area shape="rect" title="a component for rendering and displaying textures over a gameobject" alt="" coords="5,79,137,105"/>
+<area shape="rect" href="class_component.html" title="! Components, must know about the gameEntity that they are associated with Components,..." alt="" coords="27,5,115,31"/>
 <area shape="poly" title=" " alt="" coords="74,46,74,79,68,79,68,46"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -105,16 +108,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a407011ebf63cbf960accc30f7e8e581a" id="r_a407011ebf63cbf960accc30f7e8e581a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a407011ebf63cbf960accc30f7e8e581a">TextureComponent</a> ()</td></tr>
 <tr class="separator:a407011ebf63cbf960accc30f7e8e581a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38eefed85c18acb68e6f9f4125979337" id="r_a38eefed85c18acb68e6f9f4125979337"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38eefed85c18acb68e6f9f4125979337">CreateTextureComponent</a> (SDL_Renderer *renderer, std::string filepath)</td></tr>
+<tr class="memdesc:a38eefed85c18acb68e6f9f4125979337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a texture through the resource manager from the given path with the given renderer.  <br /></td></tr>
 <tr class="separator:a38eefed85c18acb68e6f9f4125979337"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c927f1d2ce791106810b277a41f040f" id="r_a2c927f1d2ce791106810b277a41f040f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c927f1d2ce791106810b277a41f040f">~TextureComponent</a> ()</td></tr>
 <tr class="separator:a2c927f1d2ce791106810b277a41f040f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a130152edf8eb87d06f4673b129d0cdd7" id="r_a130152edf8eb87d06f4673b129d0cdd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_component_type_8hpp.html#a179460a59015cda603e42e8a71d6e043">ComponentType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a130152edf8eb87d06f4673b129d0cdd7">GetType</a> () override</td></tr>
+<tr class="memdesc:a130152edf8eb87d06f4673b129d0cdd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Texture <a class="el" href="class_component.html" title="! Components, must know about the gameEntity that they are associated with Components,...">Component</a> Type  <br /></td></tr>
 <tr class="separator:a130152edf8eb87d06f4673b129d0cdd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c479b3de64f4cb205a02b8e4edd44b2" id="r_a7c479b3de64f4cb205a02b8e4edd44b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c479b3de64f4cb205a02b8e4edd44b2">Input</a> (float deltaTime) override</td></tr>
+<tr class="memdesc:a7c479b3de64f4cb205a02b8e4edd44b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">there is no Input features in the textures  <br /></td></tr>
 <tr class="separator:a7c479b3de64f4cb205a02b8e4edd44b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac97e2ad41734e84e90daaccce835c3af" id="r_ac97e2ad41734e84e90daaccce835c3af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac97e2ad41734e84e90daaccce835c3af">Update</a> (float deltaTime) override</td></tr>
+<tr class="memdesc:ac97e2ad41734e84e90daaccce835c3af"><td class="mdescLeft">&#160;</td><td class="mdescRight">there is no Update features in the textures  <br /></td></tr>
 <tr class="separator:ac97e2ad41734e84e90daaccce835c3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d1fe2ae0010e4cb50c4f7b9a984149b" id="r_a9d1fe2ae0010e4cb50c4f7b9a984149b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1fe2ae0010e4cb50c4f7b9a984149b">Render</a> (SDL_Renderer *renderer) override</td></tr>
+<tr class="memdesc:a9d1fe2ae0010e4cb50c4f7b9a984149b"><td class="mdescLeft">&#160;</td><td class="mdescRight">renders the transform rectangle if no texture is currently loaded. Renders the texture assigned if there is  <br /></td></tr>
 <tr class="separator:a9d1fe2ae0010e4cb50c4f7b9a984149b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_component.html">Component</a></td></tr>
 <tr class="memitem:a8775db6d1a2c1afc2e77cd3c8f39da6f inherit pub_methods_class_component" id="r_a8775db6d1a2c1afc2e77cd3c8f39da6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_component.html#a8775db6d1a2c1afc2e77cd3c8f39da6f">Component</a> ()</td></tr>
@@ -126,7 +134,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1000f79fe140ee4cc90d0b23cd6c035 inherit pub_methods_class_component" id="r_ad1000f79fe140ee4cc90d0b23cd6c035"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_game_entity.html">GameEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_component.html#ad1000f79fe140ee4cc90d0b23cd6c035">GetGameEntity</a> ()</td></tr>
 <tr class="separator:ad1000f79fe140ee4cc90d0b23cd6c035 inherit pub_methods_class_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>a component for rendering and displaying textures over a gameobject </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a407011ebf63cbf960accc30f7e8e581a" name="a407011ebf63cbf960accc30f7e8e581a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a407011ebf63cbf960accc30f7e8e581a">&#9670;&#160;</a></span>TextureComponent()</h2>
 
@@ -181,6 +191,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Create a texture through the resource manager from the given path with the given renderer. </p>
+
 </div>
 </div>
 <a id="a130152edf8eb87d06f4673b129d0cdd7" name="a130152edf8eb87d06f4673b129d0cdd7"></a>
@@ -205,6 +217,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>returns Texture <a class="el" href="class_component.html" title="! Components, must know about the gameEntity that they are associated with Components,...">Component</a> Type </p>
 
 <p>Implements <a class="el" href="class_component.html#a2e87d60cd7150786e51bfcda7129ed90">Component</a>.</p>
 
@@ -233,6 +247,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>there is no Input features in the textures </p>
+
 <p>Reimplemented from <a class="el" href="class_component.html#a85d6bd954d08b01cfad8e8357f98d011">Component</a>.</p>
 
 </div>
@@ -260,6 +276,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>renders the transform rectangle if no texture is currently loaded. Renders the texture assigned if there is </p>
+
 <p>Reimplemented from <a class="el" href="class_component.html#a223de42285cca9e02809120c1a44c4ac">Component</a>.</p>
 
 </div>
@@ -286,6 +304,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>there is no Update features in the textures </p>
 
 <p>Reimplemented from <a class="el" href="class_component.html#a3c50208a8c7ea021b0ae2b9dfbaec65a">Component</a>.</p>
 

@@ -79,13 +79,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>represents a object in our game.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_game_entity_8hpp_source.html">GameEntity.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for GameEntity:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_game_entity__inherit__graph.png" border="0" usemap="#a_game_entity_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_game_entity_inherit__map" id="a_game_entity_inherit__map">
-<area shape="rect" title=" " alt="" coords="48,94,138,120"/>
+<area shape="rect" title="represents a object in our game." alt="" coords="48,94,138,120"/>
 <area shape="rect" title=" " alt="" coords="5,5,181,46"/>
 <area shape="poly" title=" " alt="" coords="96,62,96,93,90,93,90,62"/>
 </map>
@@ -95,7 +98,7 @@ Collaboration diagram for GameEntity:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_game_entity__coll__graph.png" border="0" usemap="#a_game_entity_coll__map" alt="Collaboration graph"/></div>
 <map name="a_game_entity_coll__map" id="a_game_entity_coll__map">
-<area shape="rect" title=" " alt="" coords="48,94,138,120"/>
+<area shape="rect" title="represents a object in our game." alt="" coords="48,94,138,120"/>
 <area shape="rect" title=" " alt="" coords="5,5,181,46"/>
 <area shape="poly" title=" " alt="" coords="96,62,96,93,90,93,90,62"/>
 </map>
@@ -110,32 +113,45 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7946bc022c5679c01dd20f12b117651e" id="r_a7946bc022c5679c01dd20f12b117651e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_game_entity.html">GameEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7946bc022c5679c01dd20f12b117651e">GetThisPtr</a> ()</td></tr>
 <tr class="separator:a7946bc022c5679c01dd20f12b117651e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af14e6486ee5fa2971155adb3c9ef2d28" id="r_af14e6486ee5fa2971155adb3c9ef2d28"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af14e6486ee5fa2971155adb3c9ef2d28">Input</a> (float deltaTime)</td></tr>
+<tr class="memdesc:af14e6486ee5fa2971155adb3c9ef2d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls the input callbacks for all components on this gameobject and all children  <br /></td></tr>
 <tr class="separator:af14e6486ee5fa2971155adb3c9ef2d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b9627b94d084cc5546e0eee0189dd1d" id="r_a3b9627b94d084cc5546e0eee0189dd1d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9627b94d084cc5546e0eee0189dd1d">Update</a> (float deltaTime)</td></tr>
+<tr class="memdesc:a3b9627b94d084cc5546e0eee0189dd1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls the update callback for all components and all children  <br /></td></tr>
 <tr class="separator:a3b9627b94d084cc5546e0eee0189dd1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1d6d118078b29001410fc4c7ec33d0a" id="r_ac1d6d118078b29001410fc4c7ec33d0a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1d6d118078b29001410fc4c7ec33d0a">Render</a> (SDL_Renderer *renderer)</td></tr>
+<tr class="memdesc:ac1d6d118078b29001410fc4c7ec33d0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls the render callback for alll components and all children  <br /></td></tr>
 <tr class="separator:ac1d6d118078b29001410fc4c7ec33d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28bccc2cd8442c9c9cc27cc75dd08b15" id="r_a28bccc2cd8442c9c9cc27cc75dd08b15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28bccc2cd8442c9c9cc27cc75dd08b15">SetSize</a> (int <a class="el" href="glad_8h.html#a09012ea95ebbbe1c032db7c68b54291e">width</a>, int <a class="el" href="glad_8h.html#a456943498a720df0f4b62bafa5dad93c">height</a>)</td></tr>
+<tr class="memdesc:a28bccc2cd8442c9c9cc27cc75dd08b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the sixe of this gameobject through the transform  <br /></td></tr>
 <tr class="separator:a28bccc2cd8442c9c9cc27cc75dd08b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b643813ca3d6de6849457e10d4dce64" id="r_a2b643813ca3d6de6849457e10d4dce64"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a2b643813ca3d6de6849457e10d4dce64"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2b643813ca3d6de6849457e10d4dce64">AddComponent</a> (std::shared_ptr&lt; T &gt; c)</td></tr>
+<tr class="memdesc:a2b643813ca3d6de6849457e10d4dce64"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds the given component to this gameobject and associates this gameobject to the component  <br /></td></tr>
 <tr class="separator:a2b643813ca3d6de6849457e10d4dce64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1c4499103d6668e9d46d07b1519647e" id="r_ad1c4499103d6668e9d46d07b1519647e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad1c4499103d6668e9d46d07b1519647e"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ad1c4499103d6668e9d46d07b1519647e">GetComponent</a> (<a class="el" href="_component_type_8hpp.html#a179460a59015cda603e42e8a71d6e043">ComponentType</a> <a class="el" href="glad_8h.html#a890efa53b3d7deeeced6f3a0d6653ed3">type</a>)</td></tr>
+<tr class="memdesc:ad1c4499103d6668e9d46d07b1519647e"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the component of the given type or null if non-existant  <br /></td></tr>
 <tr class="separator:ad1c4499103d6668e9d46d07b1519647e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a798a630f994e8dcb2259b4e4b6ee08e2" id="r_a798a630f994e8dcb2259b4e4b6ee08e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a798a630f994e8dcb2259b4e4b6ee08e2">AddDefaultTransform</a> ()</td></tr>
+<tr class="memdesc:a798a630f994e8dcb2259b4e4b6ee08e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a transform with default postion and size  <br /></td></tr>
 <tr class="separator:a798a630f994e8dcb2259b4e4b6ee08e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eb050e651a68dd7fe17ad85f0066397" id="r_a6eb050e651a68dd7fe17ad85f0066397"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="struct_transform_component.html">TransformComponent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eb050e651a68dd7fe17ad85f0066397">GetTransform</a> ()</td></tr>
+<tr class="memdesc:a6eb050e651a68dd7fe17ad85f0066397"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the transform of this gameobject  <br /></td></tr>
 <tr class="separator:a6eb050e651a68dd7fe17ad85f0066397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfedde9dab34245e679c89b895628f7a" id="r_abfedde9dab34245e679c89b895628f7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfedde9dab34245e679c89b895628f7a">AddChildGameEntity</a> (std::shared_ptr&lt; <a class="el" href="class_game_entity.html">GameEntity</a> &gt; child)</td></tr>
+<tr class="memdesc:abfedde9dab34245e679c89b895628f7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds the given game object as a child to this  <br /></td></tr>
 <tr class="separator:abfedde9dab34245e679c89b895628f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5bf971ef60267f53c00e4429784a424" id="r_af5bf971ef60267f53c00e4429784a424"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_game_entity.html">GameEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5bf971ef60267f53c00e4429784a424">GetChildGameEntityAtIndex</a> (size_t <a class="el" href="glad_8h.html#a6468fe3bfff24d7d939eb21863b88268">index</a>)</td></tr>
+<tr class="memdesc:af5bf971ef60267f53c00e4429784a424"><td class="mdescLeft">&#160;</td><td class="mdescRight">retreives the gamobject at the given child index  <br /></td></tr>
 <tr class="separator:af5bf971ef60267f53c00e4429784a424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af70aeee767494295ab65288e7b2e85fa" id="r_af70aeee767494295ab65288e7b2e85fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af70aeee767494295ab65288e7b2e85fa">SetRenderable</a> (bool <a class="el" href="glad_8h.html#a03aff08f73d7fde3d1a08e0abd8e84fa">value</a>)</td></tr>
+<tr class="memdesc:af70aeee767494295ab65288e7b2e85fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the renderable boolean  <br /></td></tr>
 <tr class="separator:af70aeee767494295ab65288e7b2e85fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa8c950dc85696d1902a497cc00d72de" id="r_aaa8c950dc85696d1902a497cc00d72de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa8c950dc85696d1902a497cc00d72de">IsRenderable</a> () const</td></tr>
+<tr class="memdesc:aaa8c950dc85696d1902a497cc00d72de"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves whether this object is renderable  <br /></td></tr>
 <tr class="separator:aaa8c950dc85696d1902a497cc00d72de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af38de031054957f3a8787ac2ed4b1d55" id="r_af38de031054957f3a8787ac2ed4b1d55"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af38de031054957f3a8787ac2ed4b1d55">Intersects</a> (std::shared_ptr&lt; <a class="el" href="class_game_entity.html">GameEntity</a> &gt; e)</td></tr>
+<tr class="memdesc:af38de031054957f3a8787ac2ed4b1d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns whether this gamobject is intersecting with the other gameobject  <br /></td></tr>
 <tr class="separator:af38de031054957f3a8787ac2ed4b1d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
@@ -147,7 +163,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a14a54b7d50618f13809b6caca5e9625d" id="r_a14a54b7d50618f13809b6caca5e9625d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_game_entity.html">GameEntity</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14a54b7d50618f13809b6caca5e9625d">mGameEntities</a></td></tr>
 <tr class="separator:a14a54b7d50618f13809b6caca5e9625d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>represents a object in our game. </p>
+<p>All GameOjects for our purposes have a <a class="el" href="struct_transform_component.html" title="a component handling positioning and sizing of a gameobject">TransformComponent</a> and a <a class="el" href="class_collision2_d_component.html" title="a component for detecting collisions between any objects it is attached to">Collision2DComponent</a> </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a43e4841110c2de7e207d25cd31573616" name="a43e4841110c2de7e207d25cd31573616"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43e4841110c2de7e207d25cd31573616">&#9670;&#160;</a></span>GameEntity()</h2>
 
@@ -206,6 +225,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>adds the given game object as a child to this </p>
+
 </div>
 </div>
 <a id="a2b643813ca3d6de6849457e10d4dce64" name="a2b643813ca3d6de6849457e10d4dce64"></a>
@@ -225,6 +246,8 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>adds the given component to this gameobject and associates this gameobject to the component </p>
+
 </div>
 </div>
 <a id="a798a630f994e8dcb2259b4e4b6ee08e2" name="a798a630f994e8dcb2259b4e4b6ee08e2"></a>
@@ -242,6 +265,8 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>adds a transform with default postion and size </p>
+
 </div>
 </div>
 <a id="af5bf971ef60267f53c00e4429784a424" name="af5bf971ef60267f53c00e4429784a424"></a>
@@ -258,6 +283,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>retreives the gamobject at the given child index </p>
 
 </div>
 </div>
@@ -277,6 +304,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>retrieves the component of the given type or null if non-existant </p>
 
 </div>
 </div>
@@ -320,6 +349,8 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>retrieves the transform of this gameobject </p>
+
 </div>
 </div>
 <a id="af14e6486ee5fa2971155adb3c9ef2d28" name="af14e6486ee5fa2971155adb3c9ef2d28"></a>
@@ -345,6 +376,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>calls the input callbacks for all components on this gameobject and all children </p>
+
 </div>
 </div>
 <a id="af38de031054957f3a8787ac2ed4b1d55" name="af38de031054957f3a8787ac2ed4b1d55"></a>
@@ -362,6 +395,8 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>returns whether this gamobject is intersecting with the other gameobject </p>
+
 </div>
 </div>
 <a id="aaa8c950dc85696d1902a497cc00d72de" name="aaa8c950dc85696d1902a497cc00d72de"></a>
@@ -378,6 +413,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>retrieves whether this object is renderable </p>
 
 </div>
 </div>
@@ -404,6 +441,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>calls the render callback for alll components and all children </p>
+
 </div>
 </div>
 <a id="af70aeee767494295ab65288e7b2e85fa" name="af70aeee767494295ab65288e7b2e85fa"></a>
@@ -420,6 +459,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>sets the renderable boolean </p>
 
 </div>
 </div>
@@ -441,6 +482,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>sets the sixe of this gameobject through the transform </p>
 
 </div>
 </div>
@@ -466,6 +509,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>calls the update callback for all components and all children </p>
 
 </div>
 </div>

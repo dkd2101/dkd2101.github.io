@@ -78,56 +78,81 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>the main application class that runs our engine.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_application_8hpp_source.html">Application.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abd34faa9958f0b35b49baed8517f2ee7" id="r_abd34faa9958f0b35b49baed8517f2ee7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd34faa9958f0b35b49baed8517f2ee7">Application</a> (int <a class="el" href="glad_8h.html#a09012ea95ebbbe1c032db7c68b54291e">width</a>, int <a class="el" href="glad_8h.html#a456943498a720df0f4b62bafa5dad93c">height</a>)</td></tr>
+<tr class="memdesc:abd34faa9958f0b35b49baed8517f2ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts up the application  <br /></td></tr>
 <tr class="separator:abd34faa9958f0b35b49baed8517f2ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a748bca84fefb9c12661cfaa2f623748d" id="r_a748bca84fefb9c12661cfaa2f623748d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748bca84fefb9c12661cfaa2f623748d">~Application</a> ()</td></tr>
+<tr class="memdesc:a748bca84fefb9c12661cfaa2f623748d"><td class="mdescLeft">&#160;</td><td class="mdescRight">shuts down the application  <br /></td></tr>
 <tr class="separator:a748bca84fefb9c12661cfaa2f623748d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad46cc41d95fe3e730e35f65138d834f2" id="r_ad46cc41d95fe3e730e35f65138d834f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad46cc41d95fe3e730e35f65138d834f2">StartUp</a> ()</td></tr>
+<tr class="memdesc:ad46cc41d95fe3e730e35f65138d834f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts up the application with a blank scene  <br /></td></tr>
 <tr class="separator:ad46cc41d95fe3e730e35f65138d834f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac47aa6bd4aa60da38167e472ed665c95" id="r_ac47aa6bd4aa60da38167e472ed665c95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac47aa6bd4aa60da38167e472ed665c95">LoadScene</a> (int sceneId)</td></tr>
+<tr class="memdesc:ac47aa6bd4aa60da38167e472ed665c95"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads a scene at teh given id  <br /></td></tr>
 <tr class="separator:ac47aa6bd4aa60da38167e472ed665c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a817892cf56c1c333d53be31e73e8c2f8" id="r_a817892cf56c1c333d53be31e73e8c2f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a817892cf56c1c333d53be31e73e8c2f8">Shutdown</a> ()</td></tr>
+<tr class="memdesc:a817892cf56c1c333d53be31e73e8c2f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">shutsdown the application  <br /></td></tr>
 <tr class="separator:a817892cf56c1c333d53be31e73e8c2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef425d5f9773014e73262c05c8f8b0ea" id="r_aef425d5f9773014e73262c05c8f8b0ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef425d5f9773014e73262c05c8f8b0ea">Input</a> (float deltaTime)</td></tr>
+<tr class="memdesc:aef425d5f9773014e73262c05c8f8b0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">the input loop called every frame  <br /></td></tr>
 <tr class="separator:aef425d5f9773014e73262c05c8f8b0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdac3e501d813a5316b5c3f620157235" id="r_acdac3e501d813a5316b5c3f620157235"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdac3e501d813a5316b5c3f620157235">Update</a> (float deltaTime)</td></tr>
+<tr class="memdesc:acdac3e501d813a5316b5c3f620157235"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates all gameobjects inside of the currently opened scene  <br /></td></tr>
 <tr class="separator:acdac3e501d813a5316b5c3f620157235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f40ffdb97f3a938ae19ea4eae4882ed" id="r_a6f40ffdb97f3a938ae19ea4eae4882ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f40ffdb97f3a938ae19ea4eae4882ed">Render</a> ()</td></tr>
+<tr class="memdesc:a6f40ffdb97f3a938ae19ea4eae4882ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">renders all the gameobjects inside of the currently opened scene  <br /></td></tr>
 <tr class="separator:a6f40ffdb97f3a938ae19ea4eae4882ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add8435e8cede1ab06a59cdc220ea394c" id="r_add8435e8cede1ab06a59cdc220ea394c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add8435e8cede1ab06a59cdc220ea394c">Loop</a> (float targetFPS)</td></tr>
 <tr class="separator:add8435e8cede1ab06a59cdc220ea394c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab18375d43c5dab8f2db1f990020c9bae" id="r_ab18375d43c5dab8f2db1f990020c9bae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab18375d43c5dab8f2db1f990020c9bae">AddGameObject</a> (int <a class="el" href="glad_8h.html#a92d0386e5c19fb81ea88c9f99644ab1d">x</a>, int <a class="el" href="glad_8h.html#a66ddd433d2cacfe27f5906b7e86faeed">y</a>, int <a class="el" href="glad_8h.html#a09012ea95ebbbe1c032db7c68b54291e">width</a>, int <a class="el" href="glad_8h.html#a456943498a720df0f4b62bafa5dad93c">height</a>)</td></tr>
+<tr class="memdesc:ab18375d43c5dab8f2db1f990020c9bae"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a new gameobject the the currently opened scene  <br /></td></tr>
 <tr class="separator:ab18375d43c5dab8f2db1f990020c9bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4308014c72cc19c7a44f51ec83315615" id="r_a4308014c72cc19c7a44f51ec83315615"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4308014c72cc19c7a44f51ec83315615">AddTextureComponent</a> (int objectID, std::string texturePath)</td></tr>
 <tr class="separator:a4308014c72cc19c7a44f51ec83315615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4b331dc29b4964931ff4a8a9fcefdc3" id="r_ae4b331dc29b4964931ff4a8a9fcefdc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4b331dc29b4964931ff4a8a9fcefdc3">AddCollision2DComponent</a> (int objectID, int <a class="el" href="glad_8h.html#a09012ea95ebbbe1c032db7c68b54291e">width</a>, int <a class="el" href="glad_8h.html#a456943498a720df0f4b62bafa5dad93c">height</a>)</td></tr>
 <tr class="separator:ae4b331dc29b4964931ff4a8a9fcefdc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79725ddb86a8fddefb62aa476c005c61" id="r_a79725ddb86a8fddefb62aa476c005c61"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79725ddb86a8fddefb62aa476c005c61">LoadSceneFromFile</a> (std::string filepath)</td></tr>
+<tr class="memdesc:a79725ddb86a8fddefb62aa476c005c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads a scene from the given file  <br /></td></tr>
 <tr class="separator:a79725ddb86a8fddefb62aa476c005c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae767a3aa318dacf877dff9e0b276768b" id="r_ae767a3aa318dacf877dff9e0b276768b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae767a3aa318dacf877dff9e0b276768b">LoadEmptyScene</a> ()</td></tr>
+<tr class="memdesc:ae767a3aa318dacf877dff9e0b276768b"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a empty scene and adds it to the scene list  <br /></td></tr>
 <tr class="separator:ae767a3aa318dacf877dff9e0b276768b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa29f471b3160c97604c7333685e6f683" id="r_aa29f471b3160c97604c7333685e6f683"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa29f471b3160c97604c7333685e6f683">RemoveGameObject</a> (int <a class="el" href="glad_8h.html#a6468fe3bfff24d7d939eb21863b88268">index</a>)</td></tr>
+<tr class="memdesc:aa29f471b3160c97604c7333685e6f683"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove the gameobject of the given id from the currently opened scene  <br /></td></tr>
 <tr class="separator:aa29f471b3160c97604c7333685e6f683"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad86aa1ef992973e7ccff518547285e93" id="r_ad86aa1ef992973e7ccff518547285e93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad86aa1ef992973e7ccff518547285e93">RestartObjects</a> ()</td></tr>
+<tr class="memdesc:ad86aa1ef992973e7ccff518547285e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears all gameobjects of the currently opened scene  <br /></td></tr>
 <tr class="separator:ad86aa1ef992973e7ccff518547285e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8584302593c8db89a764e6cb5cd85e3d" id="r_a8584302593c8db89a764e6cb5cd85e3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8584302593c8db89a764e6cb5cd85e3d">SetObjectXY</a> (int <a class="el" href="glad_8h.html#a58c2a664503e14ffb8f21012aabff3e9">id</a>, int <a class="el" href="glad_8h.html#a92d0386e5c19fb81ea88c9f99644ab1d">x</a>, int <a class="el" href="glad_8h.html#a66ddd433d2cacfe27f5906b7e86faeed">y</a>)</td></tr>
+<tr class="memdesc:a8584302593c8db89a764e6cb5cd85e3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x and y position of the object of the given id for the currently opened scene  <br /></td></tr>
 <tr class="separator:a8584302593c8db89a764e6cb5cd85e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a562c1f4b996bf62d7dc1e2fbcfac80cf" id="r_a562c1f4b996bf62d7dc1e2fbcfac80cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a562c1f4b996bf62d7dc1e2fbcfac80cf">IncrementObjectXY</a> (int <a class="el" href="glad_8h.html#a58c2a664503e14ffb8f21012aabff3e9">id</a>, int <a class="el" href="glad_8h.html#a92d0386e5c19fb81ea88c9f99644ab1d">x</a>, int <a class="el" href="glad_8h.html#a66ddd433d2cacfe27f5906b7e86faeed">y</a>)</td></tr>
+<tr class="memdesc:a562c1f4b996bf62d7dc1e2fbcfac80cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">incrememtn the x and y positions of the object of the given id in the opened scene  <br /></td></tr>
 <tr class="separator:a562c1f4b996bf62d7dc1e2fbcfac80cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11c9c9074bd9afcf5ef13e316f06afcf" id="r_a11c9c9074bd9afcf5ef13e316f06afcf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11c9c9074bd9afcf5ef13e316f06afcf">ObjectsIntersect</a> (int objectOne, int objectTwo)</td></tr>
+<tr class="memdesc:a11c9c9074bd9afcf5ef13e316f06afcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">deterins whetehr the two objects of the respective ids are overlapping for the current scene  <br /></td></tr>
 <tr class="separator:a11c9c9074bd9afcf5ef13e316f06afcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e878098a9400fac1efc9ab7b168fc4d" id="r_a8e878098a9400fac1efc9ab7b168fc4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_entity.html">GameEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e878098a9400fac1efc9ab7b168fc4d">GetGameObject</a> (int <a class="el" href="glad_8h.html#a6468fe3bfff24d7d939eb21863b88268">index</a>)</td></tr>
+<tr class="memdesc:a8e878098a9400fac1efc9ab7b168fc4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the gameobject of the correseponding id.  <br /></td></tr>
 <tr class="separator:a8e878098a9400fac1efc9ab7b168fc4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabfb73725901aa874e5d602637a68dc7" id="r_aabfb73725901aa874e5d602637a68dc7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabfb73725901aa874e5d602637a68dc7">GetKeyPressed</a> ()</td></tr>
+<tr class="memdesc:aabfb73725901aa874e5d602637a68dc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the string of the key pressed  <br /></td></tr>
 <tr class="separator:aabfb73725901aa874e5d602637a68dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fc8e39abada7c6232d50f4493811d90" id="r_a5fc8e39abada7c6232d50f4493811d90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fc8e39abada7c6232d50f4493811d90">GetQuit</a> ()</td></tr>
+<tr class="memdesc:a5fc8e39abada7c6232d50f4493811d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves whether or not this application is being shutdown  <br /></td></tr>
 <tr class="separator:a5fc8e39abada7c6232d50f4493811d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>the main application class that runs our engine. </p>
+<p>All calls should be made through here largely and this communicates directly to the current scene and manages our scenes as well. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abd34faa9958f0b35b49baed8517f2ee7" name="abd34faa9958f0b35b49baed8517f2ee7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abd34faa9958f0b35b49baed8517f2ee7">&#9670;&#160;</a></span>Application()</h2>
 
@@ -147,6 +172,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>starts up the application </p>
+
 </div>
 </div>
 <a id="a748bca84fefb9c12661cfaa2f623748d" name="a748bca84fefb9c12661cfaa2f623748d"></a>
@@ -163,6 +190,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>shuts down the application </p>
 
 </div>
 </div>
@@ -222,6 +251,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>adds a new gameobject the the currently opened scene </p>
+
 </div>
 </div>
 <a id="a4308014c72cc19c7a44f51ec83315615" name="a4308014c72cc19c7a44f51ec83315615"></a>
@@ -260,6 +291,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the gameobject of the correseponding id. </p>
+
 </div>
 </div>
 <a id="aabfb73725901aa874e5d602637a68dc7" name="aabfb73725901aa874e5d602637a68dc7"></a>
@@ -277,6 +310,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>retrieves the string of the key pressed </p>
+
 </div>
 </div>
 <a id="a5fc8e39abada7c6232d50f4493811d90" name="a5fc8e39abada7c6232d50f4493811d90"></a>
@@ -293,6 +328,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>retrieves whether or not this application is being shutdown </p>
 
 </div>
 </div>
@@ -320,6 +357,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>incrememtn the x and y positions of the object of the given id in the opened scene </p>
+
 </div>
 </div>
 <a id="aef425d5f9773014e73262c05c8f8b0ea" name="aef425d5f9773014e73262c05c8f8b0ea"></a>
@@ -336,6 +375,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>the input loop called every frame </p>
 
 </div>
 </div>
@@ -354,6 +395,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>creates a empty scene and adds it to the scene list </p>
+
 </div>
 </div>
 <a id="ac47aa6bd4aa60da38167e472ed665c95" name="ac47aa6bd4aa60da38167e472ed665c95"></a>
@@ -371,6 +414,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>loads a scene at teh given id </p>
+
 </div>
 </div>
 <a id="a79725ddb86a8fddefb62aa476c005c61" name="a79725ddb86a8fddefb62aa476c005c61"></a>
@@ -387,6 +432,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>loads a scene from the given file </p>
 
 </div>
 </div>
@@ -426,6 +473,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>deterins whetehr the two objects of the respective ids are overlapping for the current scene </p>
+
 </div>
 </div>
 <a id="aa29f471b3160c97604c7333685e6f683" name="aa29f471b3160c97604c7333685e6f683"></a>
@@ -442,6 +491,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>remove the gameobject of the given id from the currently opened scene </p>
 
 </div>
 </div>
@@ -460,6 +511,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>renders all the gameobjects inside of the currently opened scene </p>
+
 </div>
 </div>
 <a id="ad86aa1ef992973e7ccff518547285e93" name="ad86aa1ef992973e7ccff518547285e93"></a>
@@ -476,6 +529,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>clears all gameobjects of the currently opened scene </p>
 
 </div>
 </div>
@@ -503,6 +558,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>sets the x and y position of the object of the given id for the currently opened scene </p>
+
 </div>
 </div>
 <a id="a817892cf56c1c333d53be31e73e8c2f8" name="a817892cf56c1c333d53be31e73e8c2f8"></a>
@@ -519,6 +576,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>shutsdown the application </p>
 
 </div>
 </div>
@@ -537,6 +596,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>starts up the application with a blank scene </p>
+
 </div>
 </div>
 <a id="acdac3e501d813a5316b5c3f620157235" name="acdac3e501d813a5316b5c3f620157235"></a>
@@ -553,6 +614,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>updates all gameobjects inside of the currently opened scene </p>
 
 </div>
 </div>

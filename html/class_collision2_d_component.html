@@ -78,14 +78,17 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>a component for detecting collisions between any objects it is attached to  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_collision2_d_component_8hpp_source.html">Collision2DComponent.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Collision2DComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_collision2_d_component__inherit__graph.png" border="0" usemap="#a_collision2_d_component_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_collision2_d_component_inherit__map" id="a_collision2_d_component_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,79,161,105"/>
-<area shape="rect" href="class_component.html" title="Components, must know about the gameEntity that they are associated with Components,..." alt="" coords="39,5,127,31"/>
+<area shape="rect" title="a component for detecting collisions between any objects it is attached to" alt="" coords="5,79,161,105"/>
+<area shape="rect" href="class_component.html" title="! Components, must know about the gameEntity that they are associated with Components,..." alt="" coords="39,5,127,31"/>
 <area shape="poly" title=" " alt="" coords="86,46,86,79,80,79,80,46"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -94,8 +97,8 @@ Collaboration diagram for Collision2DComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_collision2_d_component__coll__graph.png" border="0" usemap="#a_collision2_d_component_coll__map" alt="Collaboration graph"/></div>
 <map name="a_collision2_d_component_coll__map" id="a_collision2_d_component_coll__map">
-<area shape="rect" title=" " alt="" coords="5,79,161,105"/>
-<area shape="rect" href="class_component.html" title="Components, must know about the gameEntity that they are associated with Components,..." alt="" coords="39,5,127,31"/>
+<area shape="rect" title="a component for detecting collisions between any objects it is attached to" alt="" coords="5,79,161,105"/>
+<area shape="rect" href="class_component.html" title="! Components, must know about the gameEntity that they are associated with Components,..." alt="" coords="39,5,127,31"/>
 <area shape="poly" title=" " alt="" coords="86,46,86,79,80,79,80,46"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -107,34 +110,49 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a98eca6374d323f65d37747fb8c01b58c" id="r_a98eca6374d323f65d37747fb8c01b58c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98eca6374d323f65d37747fb8c01b58c">~Collision2DComponent</a> ()</td></tr>
 <tr class="separator:a98eca6374d323f65d37747fb8c01b58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fbd37bdb8315708272d3589d6d74a41" id="r_a8fbd37bdb8315708272d3589d6d74a41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_component_type_8hpp.html#a179460a59015cda603e42e8a71d6e043">ComponentType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fbd37bdb8315708272d3589d6d74a41">GetType</a> () override</td></tr>
+<tr class="memdesc:a8fbd37bdb8315708272d3589d6d74a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="class_collision2_d_component.html" title="a component for detecting collisions between any objects it is attached to">Collision2DComponent</a> type  <br /></td></tr>
 <tr class="separator:a8fbd37bdb8315708272d3589d6d74a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4ac4768513c4d128a1bfcf8141fcd9e" id="r_ad4ac4768513c4d128a1bfcf8141fcd9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4ac4768513c4d128a1bfcf8141fcd9e">Input</a> (float deltaTime) override</td></tr>
+<tr class="memdesc:ad4ac4768513c4d128a1bfcf8141fcd9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">there is not input callback for the Input  <br /></td></tr>
 <tr class="separator:ad4ac4768513c4d128a1bfcf8141fcd9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c2e6e053b5b88f42001b68e29d6da1b" id="r_a4c2e6e053b5b88f42001b68e29d6da1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c2e6e053b5b88f42001b68e29d6da1b">Update</a> (float deltaTime) override</td></tr>
+<tr class="memdesc:a4c2e6e053b5b88f42001b68e29d6da1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the size and position of this component to be that of the associated objects transform  <br /></td></tr>
 <tr class="separator:a4c2e6e053b5b88f42001b68e29d6da1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7ca53aecce2a0b9204a67262d0df450" id="r_aa7ca53aecce2a0b9204a67262d0df450"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7ca53aecce2a0b9204a67262d0df450">Render</a> (SDL_Renderer *renderer) override</td></tr>
+<tr class="memdesc:aa7ca53aecce2a0b9204a67262d0df450"><td class="mdescLeft">&#160;</td><td class="mdescRight">renders the rectanlge of this collider  <br /></td></tr>
 <tr class="separator:aa7ca53aecce2a0b9204a67262d0df450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade40d4db628d99780af2ada4d2ca840d" id="r_ade40d4db628d99780af2ada4d2ca840d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade40d4db628d99780af2ada4d2ca840d">SetW</a> (float <a class="el" href="glad_8h.html#a1d0296e9e835f2e1ee17634af95fc1ec">w</a>)</td></tr>
+<tr class="memdesc:ade40d4db628d99780af2ada4d2ca840d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the width of this component  <br /></td></tr>
 <tr class="separator:ade40d4db628d99780af2ada4d2ca840d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcde179c03ed630fec68c15de1f0ded6" id="r_afcde179c03ed630fec68c15de1f0ded6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcde179c03ed630fec68c15de1f0ded6">SetH</a> (float h)</td></tr>
+<tr class="memdesc:afcde179c03ed630fec68c15de1f0ded6"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the height of this component  <br /></td></tr>
 <tr class="separator:afcde179c03ed630fec68c15de1f0ded6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd832fdc022f80dfee1e20070f42f941" id="r_abd832fdc022f80dfee1e20070f42f941"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd832fdc022f80dfee1e20070f42f941">SetWH</a> (float <a class="el" href="glad_8h.html#a1d0296e9e835f2e1ee17634af95fc1ec">w</a>, float h)</td></tr>
+<tr class="memdesc:abd832fdc022f80dfee1e20070f42f941"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the width and height of this component resepctively  <br /></td></tr>
 <tr class="separator:abd832fdc022f80dfee1e20070f42f941"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a911582553cf06c79769781ac210222dd" id="r_a911582553cf06c79769781ac210222dd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a911582553cf06c79769781ac210222dd">GetW</a> () const</td></tr>
+<tr class="memdesc:a911582553cf06c79769781ac210222dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the width of this component  <br /></td></tr>
 <tr class="separator:a911582553cf06c79769781ac210222dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad766601e18cbf146da470f16b3dd7e35" id="r_ad766601e18cbf146da470f16b3dd7e35"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad766601e18cbf146da470f16b3dd7e35">GetH</a> () const</td></tr>
+<tr class="memdesc:ad766601e18cbf146da470f16b3dd7e35"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the height of this component  <br /></td></tr>
 <tr class="separator:ad766601e18cbf146da470f16b3dd7e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfd8f5fd9c0bba9265042981ea400c14" id="r_adfd8f5fd9c0bba9265042981ea400c14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfd8f5fd9c0bba9265042981ea400c14">SetX</a> (float <a class="el" href="glad_8h.html#a92d0386e5c19fb81ea88c9f99644ab1d">x</a>)</td></tr>
+<tr class="memdesc:adfd8f5fd9c0bba9265042981ea400c14"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x position of this component  <br /></td></tr>
 <tr class="separator:adfd8f5fd9c0bba9265042981ea400c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a08e1d987d66f141a3cddaa991606bf" id="r_a3a08e1d987d66f141a3cddaa991606bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a08e1d987d66f141a3cddaa991606bf">SetY</a> (float <a class="el" href="glad_8h.html#a66ddd433d2cacfe27f5906b7e86faeed">y</a>)</td></tr>
+<tr class="memdesc:a3a08e1d987d66f141a3cddaa991606bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the y position of this component  <br /></td></tr>
 <tr class="separator:a3a08e1d987d66f141a3cddaa991606bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24ce405b955155836317f1c027631b86" id="r_a24ce405b955155836317f1c027631b86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="glad_8h.html#a950fc91edb4504f62f1c577bf4727c29">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24ce405b955155836317f1c027631b86">SetXY</a> (float <a class="el" href="glad_8h.html#a92d0386e5c19fb81ea88c9f99644ab1d">x</a>, float <a class="el" href="glad_8h.html#a66ddd433d2cacfe27f5906b7e86faeed">y</a>)</td></tr>
+<tr class="memdesc:a24ce405b955155836317f1c027631b86"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the x and y postion of the component  <br /></td></tr>
 <tr class="separator:a24ce405b955155836317f1c027631b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bde089d836a0a59fab2831f75423966" id="r_a1bde089d836a0a59fab2831f75423966"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bde089d836a0a59fab2831f75423966">GetX</a> () const</td></tr>
+<tr class="memdesc:a1bde089d836a0a59fab2831f75423966"><td class="mdescLeft">&#160;</td><td class="mdescRight">retreives the x component of this component  <br /></td></tr>
 <tr class="separator:a1bde089d836a0a59fab2831f75423966"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaee3ecf76e1b5d7f7646c6d29233411f" id="r_aaee3ecf76e1b5d7f7646c6d29233411f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaee3ecf76e1b5d7f7646c6d29233411f">GetY</a> () const</td></tr>
+<tr class="memdesc:aaee3ecf76e1b5d7f7646c6d29233411f"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the y component of this component  <br /></td></tr>
 <tr class="separator:aaee3ecf76e1b5d7f7646c6d29233411f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb3c6baf4893239d4dbca148c03081b3" id="r_afb3c6baf4893239d4dbca148c03081b3"><td class="memItemLeft" align="right" valign="top">SDL_FRect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb3c6baf4893239d4dbca148c03081b3">GetRectangle</a> () const</td></tr>
+<tr class="memdesc:afb3c6baf4893239d4dbca148c03081b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the rectanlge of this component  <br /></td></tr>
 <tr class="separator:afb3c6baf4893239d4dbca148c03081b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_component.html">Component</a></td></tr>
 <tr class="memitem:a8775db6d1a2c1afc2e77cd3c8f39da6f inherit pub_methods_class_component" id="r_a8775db6d1a2c1afc2e77cd3c8f39da6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_component.html#a8775db6d1a2c1afc2e77cd3c8f39da6f">Component</a> ()</td></tr>
@@ -146,7 +164,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1000f79fe140ee4cc90d0b23cd6c035 inherit pub_methods_class_component" id="r_ad1000f79fe140ee4cc90d0b23cd6c035"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_game_entity.html">GameEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_component.html#ad1000f79fe140ee4cc90d0b23cd6c035">GetGameEntity</a> ()</td></tr>
 <tr class="separator:ad1000f79fe140ee4cc90d0b23cd6c035 inherit pub_methods_class_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>a component for detecting collisions between any objects it is attached to </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ade213512e52db3894fd5fc67e376386c" name="ade213512e52db3894fd5fc67e376386c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade213512e52db3894fd5fc67e376386c">&#9670;&#160;</a></span>Collision2DComponent()</h2>
 
@@ -197,6 +217,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>retrieves the height of this component </p>
+
 </div>
 </div>
 <a id="afb3c6baf4893239d4dbca148c03081b3" name="afb3c6baf4893239d4dbca148c03081b3"></a>
@@ -213,6 +235,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>retrieves the rectanlge of this component </p>
 
 </div>
 </div>
@@ -239,6 +263,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>returns <a class="el" href="class_collision2_d_component.html" title="a component for detecting collisions between any objects it is attached to">Collision2DComponent</a> type </p>
+
 <p>Implements <a class="el" href="class_component.html#a2e87d60cd7150786e51bfcda7129ed90">Component</a>.</p>
 
 </div>
@@ -258,6 +284,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>retrieves the width of this component </p>
+
 </div>
 </div>
 <a id="a1bde089d836a0a59fab2831f75423966" name="a1bde089d836a0a59fab2831f75423966"></a>
@@ -275,6 +303,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>retreives the x component of this component </p>
+
 </div>
 </div>
 <a id="aaee3ecf76e1b5d7f7646c6d29233411f" name="aaee3ecf76e1b5d7f7646c6d29233411f"></a>
@@ -291,6 +321,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>retrieves the y component of this component </p>
 
 </div>
 </div>
@@ -316,6 +348,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>there is not input callback for the Input </p>
 
 <p>Reimplemented from <a class="el" href="class_component.html#a85d6bd954d08b01cfad8e8357f98d011">Component</a>.</p>
 
@@ -344,6 +378,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>renders the rectanlge of this collider </p>
+
 <p>Reimplemented from <a class="el" href="class_component.html#a223de42285cca9e02809120c1a44c4ac">Component</a>.</p>
 
 </div>
@@ -363,6 +399,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>sets the height of this component </p>
+
 </div>
 </div>
 <a id="ade40d4db628d99780af2ada4d2ca840d" name="ade40d4db628d99780af2ada4d2ca840d"></a>
@@ -379,6 +417,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>sets the width of this component </p>
 
 </div>
 </div>
@@ -401,6 +441,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>sets the width and height of this component resepctively </p>
+
 </div>
 </div>
 <a id="adfd8f5fd9c0bba9265042981ea400c14" name="adfd8f5fd9c0bba9265042981ea400c14"></a>
@@ -417,6 +459,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>sets the x position of this component </p>
 
 </div>
 </div>
@@ -439,6 +483,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>sets the x and y postion of the component </p>
+
 </div>
 </div>
 <a id="a3a08e1d987d66f141a3cddaa991606bf" name="a3a08e1d987d66f141a3cddaa991606bf"></a>
@@ -455,6 +501,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>sets the y position of this component </p>
 
 </div>
 </div>
@@ -480,6 +528,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>updates the size and position of this component to be that of the associated objects transform </p>
 <p>NOTE: Default behavior will be to just update the</p>
 
 <p>Reimplemented from <a class="el" href="class_component.html#a3c50208a8c7ea021b0ae2b9dfbaec65a">Component</a>.</p>
