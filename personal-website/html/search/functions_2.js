@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['gameentity_0',['GameEntity',['../class_game_entity.html#a43e4841110c2de7e207d25cd31573616',1,'GameEntity']]],
+  ['getchildgameentityatindex_1',['GetChildGameEntityAtIndex',['../class_game_entity.html#af5bf971ef60267f53c00e4429784a424',1,'GameEntity']]],
+  ['getcomponent_2',['GetComponent',['../class_game_entity.html#ad1c4499103d6668e9d46d07b1519647e',1,'GameEntity']]],
+  ['getgameentity_3',['GetGameEntity',['../class_component.html#ad1000f79fe140ee4cc90d0b23cd6c035',1,'Component']]],
+  ['getgameobject_4',['GetGameObject',['../class_application.html#a8e878098a9400fac1efc9ab7b168fc4d',1,'Application::GetGameObject()'],['../class_scene.html#a72b1beeb3a2d17a2d34a07b020c0f644',1,'Scene::GetGameObject()']]],
+  ['geth_5',['GetH',['../class_collision2_d_component.html#ad766601e18cbf146da470f16b3dd7e35',1,'Collision2DComponent::GetH()'],['../struct_transform_component.html#aec4ba1c40d8071ff463a2a697c2984d6',1,'TransformComponent::GetH()']]],
+  ['getkeypressed_6',['GetKeyPressed',['../class_application.html#aabfb73725901aa874e5d602637a68dc7',1,'Application']]],
+  ['getquit_7',['GetQuit',['../class_application.html#a5fc8e39abada7c6232d50f4493811d90',1,'Application']]],
+  ['getrectangle_8',['GetRectangle',['../class_collision2_d_component.html#afb3c6baf4893239d4dbca148c03081b3',1,'Collision2DComponent::GetRectangle()'],['../struct_transform_component.html#a992e0cbffe237badd34641f1e82cb1b2',1,'TransformComponent::GetRectangle()']]],
+  ['getthisptr_9',['GetThisPtr',['../class_game_entity.html#a7946bc022c5679c01dd20f12b117651e',1,'GameEntity']]],
+  ['gettransform_10',['GetTransform',['../class_game_entity.html#a6eb050e651a68dd7fe17ad85f0066397',1,'GameEntity']]],
+  ['gettype_11',['GetType',['../class_collision2_d_component.html#a8fbd37bdb8315708272d3589d6d74a41',1,'Collision2DComponent::GetType()'],['../class_component.html#a2e87d60cd7150786e51bfcda7129ed90',1,'Component::GetType()'],['../struct_texture_component.html#a130152edf8eb87d06f4673b129d0cdd7',1,'TextureComponent::GetType()'],['../struct_transform_component.html#a4d30c255d54af02fc53774412b488014',1,'TransformComponent::GetType()']]],
+  ['getw_12',['GetW',['../class_collision2_d_component.html#a911582553cf06c79769781ac210222dd',1,'Collision2DComponent::GetW()'],['../struct_transform_component.html#ae5501067c1a954f5ed3b0cf75aadff20',1,'TransformComponent::GetW()']]],
+  ['getx_13',['GetX',['../class_collision2_d_component.html#a1bde089d836a0a59fab2831f75423966',1,'Collision2DComponent::GetX()'],['../struct_transform_component.html#a7260ce3bc9ef172d4a57a482c2b209ad',1,'TransformComponent::GetX()']]],
+  ['gety_14',['GetY',['../class_collision2_d_component.html#aaee3ecf76e1b5d7f7646c6d29233411f',1,'Collision2DComponent::GetY()'],['../struct_transform_component.html#ae02c8d6e718fdcc01065b228bbcdb10d',1,'TransformComponent::GetY()']]],
+  ['gladloadgl_15',['gladLoadGL',['../glad_8h.html#a7e9e0ebe65864f5f2bcd289c5736041b',1,'glad.h']]],
+  ['gladloadglloader_16',['gladLoadGLLoader',['../glad_8h.html#a1f34fdf1c2f94c05c53d2a1cd3d80537',1,'glad.h']]],
+  ['glboolean_17',['GLboolean',['../glad_8h.html#a9a124e9e03d2263930af3c9ed80a5c23',1,'glad.h']]],
+  ['glenum_18',['GLenum',['../glad_8h.html#a3366bcaef9f4681d51e973df0729a64f',1,'glad.h']]],
+  ['glint_19',['GLint',['../glad_8h.html#a86f1a92a0db508203706676f4affc888',1,'glad.h']]],
+  ['glsync_20',['GLsync',['../glad_8h.html#a18f41c291ba9a67abbb6eb9e1a3f58ce',1,'glad.h']]],
+  ['gluint_21',['GLuint',['../glad_8h.html#a5b1822538f6700e1f2c231e3f5c5a931',1,'glad.h']]]
+];
