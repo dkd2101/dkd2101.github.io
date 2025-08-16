@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Morion";
+    src: url("../public/fonts/Morion-UltraLightItalic.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Griffiths";
+    src: url("../public/fonts/Griffiths.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TransSansMedium";
+    src: url("../public/fonts/TransSansMedium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "ZTFormom";
+    src: url("../public/fonts/ZTFormom.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sloop";
+    src:  url("../public/fonts/Sloop-ScriptThree.ttf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
